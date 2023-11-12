@@ -1,0 +1,30 @@
+.social-section {
+  position: fixed;
+  bottom: 0%;
+  right: 3%;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.socials::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100px;
+  margin: 0px auto;
+  background-color: var(--text-color);
+}
+
+.social-item {
+  font-size: 26px;
+}
+
+@media (max-width: 1000px) {
+  .social-section {
+    display: none;
+  }
+}
