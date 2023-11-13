@@ -6,6 +6,7 @@
 :root {
   /* Color */
   --bgColor: #0a192f;
+  /* --bgColor: #0f0f0e; */
   --light-navy: #112240;
   --text-light: #495670;
   --text-lighter: #a8b2d1;
@@ -59,6 +60,7 @@ body.light-mode {
   position: absolute;
   right: 5%;
   padding: 30px;
+  /* padding-left: 120px; */
 }
 
 h1,

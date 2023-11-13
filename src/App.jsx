@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from "react";
 import Hero from "./Components/Home/Hero";
-import Socials from "./Components/Socials";
 import Navbar from "./Components/Navbar/Navbar";
 import ProjectList from "./Components/Projects/ProjectList";
 import SkillsList from "./Components/Skills/SkillsList";
 import data from "./data";
 import "./index.css";
+import Socials from "./Components/Socials/Socials";
+import Footer from "./Components/Footer/Footer";
+import Contact from "./Components/Contact/Contact";
 
 function App() {
   const [lightMode, setLightMode] = useState(false);
@@ -29,6 +31,8 @@ function App() {
           projects={data.projects}
           liveProjects={data.liveProjects}
         />
+        <Contact />
+        <Footer />
       </main>
     </div>
   );

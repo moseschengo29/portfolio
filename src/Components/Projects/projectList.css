@@ -40,5 +40,6 @@
   .projects {
     display: grid;
     grid-template-columns: 1fr;
+    margin-left: 20px;
   }
 }

@@ -7,8 +7,8 @@ function SkillsList({ skills, experience }) {
     <div className="skills" id="skills">
       <div className="section-header mg-bottom">
         <h1 className="section-title">Skills & Experience</h1>
-        <a href="#jhs" className="skills-link">
-          view full story &rarr;
+        <a href="https://github.com/moseschengo29" className="skills-link">
+          view full profile &rarr;
         </a>
       </div>
       <div className="skills-main">

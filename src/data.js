@@ -1,7 +1,7 @@
 const data = {
   name: "Moses Chengo",
   description:
-    "I am a 18 year old, Kenyan, passionate and skilled web developer with a focus on crafting exceptional online experiences. I have honed my expertise in front-end and enabling me to create innovative, user-friendly, and responsive UI. Currently I'm studying at",
+    "I am a 18 year old, Kenyan, passionate and skilled software engineer with a focus on crafting exceptional online experiences. I have honed my expertise in full-stack development, enabling me to create innovative, user-friendly, and responsive applications. I am a graduate from",
   about: "A blog about learning React",
   github: "https://github.com/moseschengo29/Project-1",
 
@@ -108,14 +108,24 @@ const data = {
   projects: [
     {
       id: 1,
-      title: "Movie Finder",
+      title: "Doro's Wedding",
       description:
         "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track.",
-      github: "https://github.com/moseschengo29/Project-1",
+      github: "https://github.com/ArshavineRoy/doros-wedding-client",
       demo: true,
-      demoLink: "https://moseschengo29.github.io/Project-1/",
-      technologies: ["html", "css", "js"],
+      demoLink: "https://doros-wedding.onrender.com/",
+      technologies: ["react", "flask", "tailwind"],
     },
+    {
+      id: 8,
+      title: "Appointment Booking",
+      description:
+        "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track.",
+      github: "https://github.com/moseschengo29/Phase-4-Project",
+      demo: true,
+      technologies: ["react", "flask"],
+    },
+    
     {
       id: 2,
       title: "Recipes Search App",
@@ -164,6 +174,24 @@ const data = {
       github: "https://github.com/moseschengo29/Packing-List-App",
       technologies: ["react"],
     },
+    {
+      id: 7,
+      title: "Movie Finder",
+      description:
+        "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track.",
+      github: "https://github.com/moseschengo29/Project-1",
+      demo: true,
+      demoLink: "https://moseschengo29.github.io/Project-1/",
+      technologies: ["html", "css", "js"],
+    },
+    {
+      id: 8,
+      title: "Hotel Management System",
+      description:
+        "A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track.",
+      github: "https://github.com/moseschengo29/Marahaba-Resort",
+      technologies: ["react", "supabase"],
+    },
   ],
 
   experience: [
@@ -171,14 +199,14 @@ const data = {
       id: 1,
       icon: "briefcase",
       year: "2022 - Present",
-      title: "Front-End Developer",
+      title: "Full stack Developer",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima vel incidunt at consequuntur commodi necessitatibus ipsa iste aut qui sunt quasi",
     },
 
     {
       id: 2,
       icon: "laptop",
-      year: "2020 - 2022",
+      year: "2023 - date",
       title: "Free Lancing",
       desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima vel incidunt at consequuntur commodi necessitatibus ipsa iste aut qui sunt quasi",
     },

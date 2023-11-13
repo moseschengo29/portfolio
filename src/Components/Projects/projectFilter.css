@@ -30,6 +30,8 @@
 @media (max-width: 540px) {
   .projects-filter {
     padding: 20px 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
   }
   .filter-btn {
     font-size: 14px;

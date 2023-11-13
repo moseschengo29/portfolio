@@ -62,9 +62,11 @@
   .skills-main {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 70px;
+    padding: 50px;
     gap: 60px;
-    width: 50%;
+    width: 100%;
+    margin-top: 20px;
+    /* width: 50%; */
   }
 
   .mg-bottom {
