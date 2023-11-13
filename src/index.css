@@ -59,7 +59,7 @@ body.light-mode {
 .main {
   position: absolute;
   right: 5%;
-  padding: 30px;
+  padding: 20px;
   /* padding-left: 120px; */
 }
 
@@ -150,7 +150,8 @@ button {
   box-shadow: 1.5px 4px 0 var(--lime-green);
 }
 .contact {
-  padding: 3rem;
+  padding: 2.8rem;
+      padding-left: 140px;
   display: flex;
   align-items: center;
   gap: 30px;
@@ -235,8 +236,9 @@ form {
   align-items: center;
   height: 100vh;
   padding-bottom: 100px;
+  column-gap: 50px;
   margin-top: -10px;
-  padding-left: 110px;
+  padding-left: 135px;
 }
 
 .hero {
@@ -253,13 +255,13 @@ form {
 
 .name {
   color: var(--text-lightest);
-  font-size: 90px;
+  font-size: 80px;
   font-weight: 700;
 }
 
 .title {
   color: var(--text-lighter);
-  font-size: 53px;
+  font-size: 50px;
   font-weight: 700;
 }
 
@@ -283,7 +285,7 @@ form {
 }
 
 .image-side img {
-  width: 500px;
+  width: 470px;
 }
 
 .header {
@@ -363,7 +365,11 @@ form {
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 
-  padding: 40px;
+  padding: 20px;
+  margin-bottom: 50px;
+  margin-top: 20px;
+  /* padding-left: 110px; */
+  /* margin-left: 50px; */
 }
 
 .project-figure {
@@ -417,7 +423,8 @@ form {
   color: #64ffda;
 }
 .projects-cards {
-  padding: 40px 40px;
+  /* padding: 40px 40px; */
+  padding-left: 80px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -517,6 +524,7 @@ form {
   gap: 30px;
 
   padding: 40px;
+      padding-left: 150px;
 }
 
 .projects-title {
@@ -601,7 +609,10 @@ form {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px;
-  padding: 30px;
+  margin-top: 40px;
+  padding-right: 30px;
+  padding-left: 110px;
+  /* padding: 30px; */
 }
 
 .mg-bottom {
