@@ -1,5 +1,5 @@
 const data = {
-  name: "Moses Chengo",
+  name: "Moses Cheng",
   description:
     "I am a 18 year old, Kenyan, passionate and skilled software engineer with a focus on crafting exceptional online experiences. I have honed my expertise in full-stack development, enabling me to create innovative, user-friendly, and responsive applications. I am a graduate from",
   about: "A blog about learning React",
