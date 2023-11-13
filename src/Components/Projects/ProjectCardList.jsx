@@ -1,7 +1,6 @@
 import { useState } from "react";
 import ProjectCard from "./ProjectCard";
 import ProjectFilter from "./ProjectFilter";
-import "./projectCardList.css";
 
 function ProjectCardList({ liveProjects }) {
   const [activeFilter, setActiveFilter] = useState("All");

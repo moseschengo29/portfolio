@@ -1,4 +1,3 @@
-import "./projectFilter.css";
 
 function ProjectFilter({ filters, activeFilter, handleFilterClick }) {
   return (

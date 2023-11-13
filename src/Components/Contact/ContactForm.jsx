@@ -16,15 +16,12 @@ function ContactForm() {
     };
 
     function validatePhoneNumber(phoneNumber) {
-    // Define the pattern for a North American phone number
-    const phonePattern = /^\d{10}$/;
+    const cleanedNumber = phoneNumber.replace(/\D/g, '');
 
-    // Remove any non-digit characters from the input
-    const cleanedPhoneNumber = phoneNumber.replace(/\D/g, '');
+    const phoneRegex = /^\d{8,15}$/;
 
-    // Check if the cleaned phone number matches the pattern
-    return phonePattern.test(cleanedPhoneNumber);
-}
+    return phoneRegex.test(cleanedNumber);
+    }
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -41,13 +38,20 @@ function ContactForm() {
         ) {
         toast.error("Name must Start with a capital letter");
         } else if (!validateEmail(formData.email)) {
-        toast.error("Invalid Email Format");
+        toast.error("Invalid Email Format, eg test@gmail.com");
         } else if (!validatePhoneNumber(formData.phone)) {
-        toast.error("Invalid Phone number");
+        toast.error("Invalid Phone number, eg +25400000000");
         } else {
         try {
             // make regestration request using signupMutation
             console.log(`formData: `, formData);
+            setFormData({
+                fullname: "",
+                email: "",
+                phone: "",
+                additional_information: ""
+            })
+            toast.success("Message sent successfully!")
         } catch (error) {
             // Registration failed, handle errors
            console.log(error)
@@ -94,7 +98,7 @@ function ContactForm() {
                 </div>
                 <div>
                   <input
-                    type="number"
+                    type="tel"
                     name="phone"
                     id="phone"
                     value={formData.phone}

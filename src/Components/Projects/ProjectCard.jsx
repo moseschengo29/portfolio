@@ -1,4 +1,3 @@
-import "./projectCard.css";
 
 function ProjectCard({ liveProjects }) {
   return (

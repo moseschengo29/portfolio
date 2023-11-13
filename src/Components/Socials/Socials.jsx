@@ -1,5 +1,3 @@
-import "./social.css";
-
 function Socials() {
   return (
     <div className="social-section">

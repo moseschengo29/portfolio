@@ -1,4 +1,3 @@
-import "./projectItem.css";
 
 function ProjectItem({
   title,

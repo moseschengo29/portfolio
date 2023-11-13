@@ -1,5 +1,3 @@
-import "./navbar.css";
-
 export default function Navbar({ onChangeTheme, isLight }) {
   return (
     <nav className="header">

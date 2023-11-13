@@ -1,6 +1,5 @@
 import Skill from "./Skill";
 import Exprience from "./Exprience";
-import "./skillList.css";
 
 function SkillsList({ skills, experience }) {
   return (

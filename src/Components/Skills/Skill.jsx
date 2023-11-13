@@ -1,4 +1,3 @@
-import "./skill.css";
 
 function Skill({ name, icon }) {
   return (

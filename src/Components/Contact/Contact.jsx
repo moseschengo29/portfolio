@@ -1,5 +1,4 @@
-import './contact.css'
-import {BsInstagram, BsTelephone} from 'react-icons/bs'
+import {BsTelephone} from 'react-icons/bs'
 import {AiOutlineMail} from 'react-icons/ai'
 import ContactForm from './ContactForm'
 

@@ -1,4 +1,3 @@
-import "./hero.css";
 import header_image from "../../assests/img/header-img.svg";
 import { TypeAnimation } from "react-type-animation";
 

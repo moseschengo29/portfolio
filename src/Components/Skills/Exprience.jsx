@@ -1,4 +1,3 @@
-import "./experience.css";
 
 function Exprience({ title, icon, year, desc }) {
   return (

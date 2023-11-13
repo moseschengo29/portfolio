@@ -1,6 +1,5 @@
 import ProjectCardList from "./ProjectCardList";
 import ProjectItem from "./ProjectItem";
-import "./projectList.css";
 
 function ProjectList({ projects, liveProjects }) {
   return (
